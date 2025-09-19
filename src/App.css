@@ -1,12 +1,28 @@
-import React from 'react';
-
-function App() {
-  return (
-    <div className="min-h-screen bg-gray-800 p-6">
-      <h1 className="text-3xl font-bold mb-6 text-blue-400">Lezeni Test</h1>
-      <p className="text-white">Tailwind CSS is working!</p>
-    </div>
-  );
+/* Add your CSS styles here for the App component */
+.min-h-screen {
+  min-height: 100vh;
 }
 
-export default App;
+.bg-gray-800 {
+  background-color: #2d3748;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.text-white {
+  color: #fff;
+}
